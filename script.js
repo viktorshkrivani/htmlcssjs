@@ -5,12 +5,3 @@ function toggleMenu() {
     icon.classList.toggle("open");
 }
 
-function showDescription() {
-    var description = document.getElementById("description");
-    description.style.display = "block";
-}
-
-function hideDescription() {
-    var description = document.getElementById("description");
-    description.style.display = "none";
-}
