@@ -15,12 +15,12 @@
       </audio>
 
       <script>
-        // Check if audio should be played or not
+        
         if(localStorage.getItem('playAudio') === 'true') {
           document.getElementById('bg-music').play();
         }
       
-        // Add event listener to play/pause audio on click
+       
         document.getElementById('bg-music').addEventListener('click', function() {
           if(this.paused) {
             this.play();
