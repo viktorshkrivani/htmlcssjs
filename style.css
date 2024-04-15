@@ -318,7 +318,7 @@ section {
 
 #about {
     position: relative;
-    background-color: white; /* Add white background */
+    background-color: white; 
     margin-top: 65px; 
     margin-bottom: 0px;    
 }
@@ -385,7 +385,7 @@ section {
 /* SKILLS SECTION */
 #skills{
     position: relative;
-    background-color: white; /* Add white background */
+    background-color: white; 
     height: 120vh;
 }
 
@@ -440,7 +440,7 @@ article .icon {
 
 #int {
     position: relative;
-    background-color: white; /* Add white background */  
+    background-color: white; 
     
        
 }
@@ -480,7 +480,7 @@ article .icon {
 
 #future {
     position: relative;
-    background-color: white; /* Add white background */     
+    background-color: white;     
 }
 
 .future-container-img{
@@ -592,9 +592,9 @@ footer {
 .description {
     display: none;
     position: absolute;
-    top: calc(100% + 10px); /* Position the description below the button */
+    top: calc(100% + 10px); 
     left: 0;
-    width: 200px; /* Adjust as needed */
+    width: 200px; 
     background-color: #f9f9f9;
     border: 1px solid #ccc;
     padding: 10px;
